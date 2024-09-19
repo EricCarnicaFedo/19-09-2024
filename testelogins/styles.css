@@ -1,0 +1,129 @@
+/* Estilo Geral do Corpo da Página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn.wallpapersafari.com/32/78/dTuctf.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+/* Container do Formulário */
+.form-container {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito ao Passar o Mouse sobre o Container */
+.form-container:hover {
+  transform: translateY(-5px); /* Pequeno efeito de elevação */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+
+/* Cabeçalho do Formulário */
+h1 {
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaço entre o ícone e o texto */
+}
+
+/* Rótulos dos Campos */
+label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #555;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espaço entre o ícone e o label */
+}
+
+/* Campos de Entrada e Seleção */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição para inputs */
+}
+
+/* Efeito de Foco nos Campos */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #28a745; /* Cor verde ao focar */
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Efeito de sombra ao focar */
+}
+
+/* Botão de Envio */
+button.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaço entre o ícone e o texto do botão */
+}
+
+/* Efeito de Hover no Botão */
+button.submit-btn:hover {
+  background-color: #218838;
+}
+
+/* Cabeçalho Secundário */
+h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+/* Informações de Redirecionamento */
+.redirect-info {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Link de Redirecionamento */
+.redirect-link {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Efeito de Hover no Link de Redirecionamento */
+.redirect-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+/gestao-veterinaria
+│
+├── index.php              (Página inicial)
+├── login.php              (Página de login)
+├── cadastro.php           (Página de cadastro)
+├── tutor.php              (Painel do tutor)
+├── veterinario.php        (Painel do veterinário)
+└── db.php                 (Conexão com o banco de dados)
